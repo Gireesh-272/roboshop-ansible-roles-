@@ -9,5 +9,4 @@
       state: present
 
   - name: load schema
-    ansible.builtin.command: mongo --host mongodb.blackranger.xyz < /app/schema/catalogue.js
-    
+    ansible.builtin.command: mongo --host {{MONGODB_HOST}} < /app/schema/catalogue.js

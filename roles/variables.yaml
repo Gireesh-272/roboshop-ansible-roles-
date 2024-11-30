@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb.blackranger.xyz
+REDIS_HOST: redis.blackranger.xyz
+CATALOGUE_HOST: catalogue.blackranger.xyz
+MYSQL_HOST: mysql.blackranger.xyz
+RABBITMQ_HOST: rabbitmq.blackranger.xyz
+USER_HOST: user.blackranger.xyz
+CART_HOST: cart.blackranger.xyz
+SHIPPING_HOST: shipping.blackranger.xyz
+PAYMENT_HOST: payment.blackranger.xyz
+DISPATCH_HOST: dispatch.blackranger.xyz

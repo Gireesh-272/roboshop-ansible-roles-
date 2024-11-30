@@ -1,0 +1,7 @@
+  - name : install mysql
+    ansible.builtin.package:
+      name: mysql
+      state: present
+
+  - name: loading schema
+    ansible.builtin.shell: mysql -h {{MYSQL_HOST}} -uroot -p{{mysql_password}} < /app/schema/shipping.sql
